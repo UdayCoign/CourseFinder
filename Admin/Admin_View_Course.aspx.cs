@@ -15,7 +15,6 @@ public partial class Admin_Admin_View_Course : System.Web.UI.Page
     SqlConnection con = new SqlConnection();
     protected void Page_Load(object sender, EventArgs e)
     {
-        DataSet ds = new DataSet();
        
         con.ConnectionString = ConfigurationManager.AppSettings["conn"].ToString();
         con.Open();
