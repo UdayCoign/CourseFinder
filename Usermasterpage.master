@@ -1,0 +1,68 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Usermasterpage.master.cs" Inherits="Usermasterpage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body style="background-image: url(Images/palm-template.jpg)">
+    <form id="form1" runat="server">
+    <div>
+        <table style="z-index: 100; left: 0px; width: 952px; position: absolute; top: 0px;
+            height: 553px">
+            <tr>
+                <td colspan="2" style="height: 15px">
+                    <span style="font-size: 36pt; color: #ff3399">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; COURSE FINDER</span></td>
+            </tr>
+            <tr style="font-size: 12pt">
+                <td style="width: 17px; height: 235px">
+                    <table>
+                        <tr>
+                            <td style="width: 7059px; height: 24px;">
+                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/searchpage.aspx" Width="182px">Search Univesities & Cources</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 7059px">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Viewcourse.aspx">View Courses</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 7059px; height: 21px">
+                                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Viewuniversity.aspx">View Universities</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 7059px; height: 21px">
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Default.aspx">Logout</asp:HyperLink>
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+                </td>
+                <td style="width: 98px; height: 235px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr style="font-size: 12pt">
+                <td colspan="2">
+                    <span style="color: #000000">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Copyright © 2009 Coign Consultants.
+                        All rights reserved</span></td>
+            </tr>
+        </table>
+        
+    </div>
+    </form>
+</body>
+</html>
