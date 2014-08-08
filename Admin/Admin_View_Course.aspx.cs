@@ -20,6 +20,7 @@ public partial class Admin_Admin_View_Course : System.Web.UI.Page
         con.Open();
         string query = "select CourseName,duration,fee,description from TB_Course";
         SqlDataAdapter da = new SqlDataAdapter(query, con);
+         DataSet ds = new DataSet();
         da.Fill(ds, "university");
         GridView1.DataSource = ds.Tables[0];
         GridView1.DataBind();
