@@ -22,7 +22,7 @@ public partial class addcourse : System.Web.UI.Page
                 try
                 {
                     SqlDataReader dr;
-                    //con.ConnectionString = ConfigurationManager.AppSettings["conn"].ToString();
+                    con.ConnectionString = ConfigurationManager.AppSettings["conn"].ToString();
                     con.Open();
 
 
